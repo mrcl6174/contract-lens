@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "ContractLens - 契約書レビュー",
+  "version": "1.0.0",
+  "description": "AIを使って契約書を4つの視点から自動レビューします",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*",
+    "<all_urls>"
+  ],
+  "side_panel": {
+    "default_path": "popup.html"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "ContractLens を開く"
+  },
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
