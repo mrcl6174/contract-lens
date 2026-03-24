@@ -1,0 +1,9 @@
+# アイコン生成用ツール（開発用）
+create-icons.js
+generate-icons.html
+
+# content.js（未使用・削除済み）
+content.js
+
+# Claude Code 作業ディレクトリ
+.claude/
